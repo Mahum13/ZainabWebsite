@@ -1,0 +1,146 @@
+body, html {
+  width: 100%;
+  margin: auto;
+  min-height: 100%;
+  scroll-behavior: smooth;
+
+}
+
+.tabs{
+  font-family: 'Poiret One';
+  position: relative;
+  display: inline-block;
+  margin-right: 50px;
+  float: right;
+  top: 100px;
+  font-weight: bold;
+}
+
+.a {
+  text-decoration: none;
+  color: #313638;
+  font-size: 20px;
+}
+
+.a:hover {
+  text-decoration: none;
+  color: #c17c74;
+}
+/* Dropdown container */
+.dropdown {
+  float: right;
+}
+
+.dropdown button {
+  border: none;
+  font-family: 'Poiret One';
+  font-weight: bold;
+  font-size: 20px;
+  color: #313638;
+  background-color: #e8e9eb;
+  cursor: pointer;
+  display: inline-block;
+  margin: 0px;
+}
+
+button:hover {
+  text-decoration: none;
+  color: #c17c74;
+}
+
+
+/* Dropdown content (hidden by default) */
+.dropdownContent {
+  display: none;
+  position: relative;
+  background-color: #c17c74;
+  border-radius: 50%;
+  max-width: 70px;
+  max-height: 70px;
+  box-shadow: 0px 8px 12px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  overflow: hidden;
+  animation: fadeIn 1s;
+}
+
+
+/* Links inside dropdown */
+.dropdownContent .a2 {
+  float: none;
+  text-decoration: none;
+  text-align: center;
+}
+
+.dropdown:hover .dropdownContent{
+  display: block;
+  color: #c17c74;
+}
+
+.dropdown:hover > button {
+  color:#c17c74;
+}
+
+@keyframes fadeIn {
+  0% {opacity: 0;}
+  100% {opacity: 1;}
+}
+
+p {
+  display: inline-block;
+  position: relative;
+  margin: 5px;
+  color: #708b75;
+  font-weight: bold;
+}
+
+.underline {
+  border-bottom: 1px solid #adadad;
+  line-height: 1px;
+}
+
+.name {
+  display: inline-block;
+  position: absolute;
+  font-family: 'Poiret One';
+  font-size: 50px;
+  color: #313638;
+  margin-left: 150px;
+  margin-top: 100px;
+  text-decoration: none;
+}
+
+#profileImage {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  margin-left: 150px;
+  margin-top: 250px;
+  max-width: 305px;
+  max-height: 332px;
+}
+
+
+.bioContainer {
+  width: 750px;
+  height: 200px;
+  position: relative;
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 55px;
+  margin-top: 250px;
+}
+
+.p2 {
+  font-family: 'Poiret One';
+  font-size: 20px;
+  line-height: 25px;
+  color: #313638;
+
+}
+
+.a2 {
+  text-decoration: none;
+  color: #c17c74;
+  font-family: "Poiret One";
+  font-size: 20px;
+}

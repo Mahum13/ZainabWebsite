@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="css/publications.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.0.js"></script>
+    <script language="JavaScript" type="text/javascript" src="./js/publications.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poiret+One&display=swap" rel="stylesheet">
+    <div style="width: 100%; height: 25px; background-color: #b96d64; position: absolute">
+    <title>Zainab Husain - Published Work</title>
+    <!-- NAV BAR -->
+    <div class="tabs">
+      <a class="a" href="./index.html">About</a>
+      <p>|</p>
+      <a class="a" href="./publications.html">Published Work</a>
+      <p>|</p>
+      <div class="dropdown">
+        <button>Contact</button>
+          <a class="dropdownContent a2" href="#" target="_blank"><img src="./images/mainImages/email.png" style="width: 35px; height: 35px; margin: 18px;"></a>
+          <br>
+          <a class="dropdownContent a2" href="https://twitter.com/zainabhusainn" target="_blank"><img src="./images/mainImages/twitter.png" style="width: 35px; height: 35px; margin: 20px;"></a>
+      </div>
+    </div>
+    <!-- END OF NAV BAR -->
+  </head>
+
+  <body style="background-color: #e8e9eb;">
+    <!-- Scroll to top button -->
+    <button onclick="topFunction()" id="topButton" title="Go to top"><i class="arrow"></i></button>
+    <script>
+      var btn = document.getElementById("topButton");
+      window.onscroll = function() { scrollFunction() };
+    </script>
+
+    <div id="heading">
+      <a class="name" href="./index.html"><span class="underline">Zainab Husain</span></a>
+      <div class="subheading">- Published Work</div>
+    </div>
+    <!-- FILTER BAR -->
+    <div id="filterBar">
+      <div class="p2" style="font-weight: bold;">Go to:
+        <span style="padding: 5px;"><a class="a" onclick="videoTitleScroll()">Videos</a></span>
+        <span>•</span>
+        <span style="padding: 5px;"><a class="a" href="#articleTitle">Articles</a></span>
+      </div>
+    </div>
+    <div id="videoTitle" class="videoHeading">
+      <div class="subheading" style="font-size: 30px; color: #313638;">Videos</div>
+    </div>
+    <div class="displayContainer">
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid1.jpg" style="position: relative; width: 107%; bottom: 10px; right: 13px; height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 30px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/LLGk1k37Z0I')">Pakistan Railways: An Institution Derailed<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid2.jpg" style="position: relative; width: 105%; min-height: auto; bottom: 5px; right: 5px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 26px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/8uHunDosA6o')">Pakistan's Urban Forest<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid3.jpg" style="position: relative; width: 105%; min-height: auto; bottom: 37px; right: 8px">
+            <div class="headline">
+              <div class="caption" style="bottom: 100px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/HP9_oynl_o4')">Heatwaves in Karachi<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid4.jpg" style="position: relative; width: 107%; min-height: auto; bottom: 10px; right: 12px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 35px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/h5q2vQCUKuE')">Shoot First, Question Later<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid5.jpg" style="position: relative; width: 106%; min-height: auto; bottom: 5px; right: 12px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 32px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/ZlOz4At9ZVs')">Tackling Rape and Abuse Part 1: Should the government be doing more?<br stlye="line-height: 5px; align: center"><br> - Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid6.jpg" style="position: relative; width: 106%; min-height: auto; right: 15px; bottom: 7px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 30px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/1ctU438gl-4')">Tackling Rape and Abuse Part 2: Why are courts demanding the two finger test?<br stlye="line-height: 5px; align: center"><br> - Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid7.jpg" style="position: relative; width: 107%; min-height: auto; bottom: 10px; right: 12px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 30px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/ntegGnZPWx8')">That's Not Fair<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid8.jpg" style="position: relative; width: 107%; min-height: auto; bottom: 10px; right: 12px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 30px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/Y1zUsUEngKQ')">The Doctor Brides Phenomenon<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid9.jpg" style="position: relative; width: 107%; min-height: auto; bottom: 10px; right: 12px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 30px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/TPuiU5TEBNQ')">Kashmir's Special Status Explained<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid10.jpg" style="position: relative; width: 100%; min-height: auto; bottom: 46px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 90px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/nuIlTCtFgh0')">The Ethnic Cleansing of Hazara Shias<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid11.jpg" style="position: relative; width: 102%; min-height: auto; bottom: 36px;">
+            <div class="headline">
+              <div class="caption" style="bottom: 95px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/ZOHrEN5nQFE')">KP - FATA Merger<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid12.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/cOPwZX2_gR4')">Interview with Pakistan's Federal Minister for Human Rights<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid13.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/jTF1JQu7ZP8')">Enforced Disappearences in Pakistan<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid14.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/PJZF2gL6aPk')">Guilty Until Proven Innocent: the Patras Masih Blasphemy Case<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid15.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/bhrulNpUt0k')">Domestic Violence and the Covid-19 Lockdown<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid16.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/5Kt611h_gco')">Pakistan's New Social Media Rules<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid17.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/_N9f65bmvaw')">PUBG Ban<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid18.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/lW_RgOcb88g')">Goats for Water: basic necessities for communities in need<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid19.jpg" style="position: relative; width: 100%; bottom: 35px; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 90px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/iAQIDgITTF4')">Pakistan's Childhood Stunting Problem<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid20.jpg" style="position: relative; width: 100%; bottom: 25px; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 90px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/yY5bLzes_70')">#MeToo in South Asia<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid21.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/Ahx8jN5X-v8')">Aurat March Demands<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid22.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/3gLkGW_Mbqw')">Women In Sports: Cricket<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid23.jpg" style="position: relative; width: 102%; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 22px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/484j4gvdHag')">Women In Sports: Football<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/vid24.jpg" style="position: relative; width: 102%; bottom: 25px; min-height: auto;">
+            <div class="headline">
+              <div class="caption" style="bottom: 90px;"><button id="btn" class="btn" onclick="displayModal('https://www.youtube.com/embed/vicmtLnb25A')">Women In Sports: Swimming<br stlye="line-height: 5px; align: center"><br>- Soch Videos</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div id="myModal" class="modal">
+        <div class="modalContent">
+          <div class="video">
+            <span class="closeBtn"><button class="closeBtn" onclick="closeModal()">&times;</button></span>
+            <iframe id="videoPlaying" style="width: 100%; height: 700px;" src="" width="560" height="315" style="border: none;overflow:hidden" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div style="width: 90%; height: 2px; background-color: #adadad; position: relative; margin: auto;"></div>
+    <div id="articleTitle" class="articleHeading">
+      <div class="subheading" style="font-size: 30px; color: #313638;">Articles</div>
+    </div>
+  </body>
+</html>
