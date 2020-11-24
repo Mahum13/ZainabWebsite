@@ -17,7 +17,13 @@
       <p>|</p>
       <div class="dropdown">
         <button>Contact</button>
-          <a class="dropdownContent a2" href="#" target="_blank"><img src="./images/mainImages/email.png" style="width: 35px; height: 35px; margin: 18px;"></a>
+          <a class="dropdownContent a2" onclick="emailModal()" target="_blank"><img src="./images/mainImages/email.png" style="width: 35px; height: 35px; margin: 18px; cursor: pointer;"></a>
+          <div id="emailModal" class="modal">
+            <div class="modalContent">
+              <span class="closeBtn"><button class="closeBtn" onclick="closeModal()">&times;</button></span>
+              <div class="p2" style="padding: 20px; font-size: 29px;">Email: zainab106@gmail.com</div>
+            </div>
+          </div>
           <br>
           <a class="dropdownContent a2" href="https://twitter.com/zainabhusainn" target="_blank"><img src="./images/mainImages/twitter.png" style="width: 35px; height: 35px; margin: 20px;"></a>
       </div>
@@ -48,7 +54,9 @@
     <div id="videoTitle" class="videoHeading">
       <div class="subheading" style="font-size: 30px; color: #313638;">Videos</div>
     </div>
-    <div class="displayContainer">
+
+    <!-- Videos -->
+    <div id="videoContainer" class="displayContainer">
       <div class="row">
         <div class="column">
           <div class="rectDiv">
@@ -291,9 +299,52 @@
       </div>
     </div>
 
+    <!-- Articles -->
     <div style="width: 90%; height: 2px; background-color: #adadad; position: relative; margin: auto;"></div>
     <div id="articleTitle" class="articleHeading">
       <div class="subheading" style="font-size: 30px; color: #313638;">Articles</div>
+    </div>
+    <div id="articleContainer" class="displayContainer">
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/art1.jpg" style="position: relative; width: 100%;">
+            <div class="headline">
+              <div class="caption"><button id="btn" class="btn"><a class="a" href="https://www.sochwriting.com/sued-for-saying-metoo/" target="_blank">Sued for Saying #MeToo<br stlye="line-height: 5px; align: center"><br>- Soch Writing<a/></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/art2.jpg" style="position: relative; width: 100%;">
+            <div class="headline">
+              <div class="caption" style="bottom: 2px;"><button id="btn" class="btn"><a class="a" href="https://www.sochwriting.com/quettas-missing-dying-dead-and-those-left-behind/" target="_blank">Quetta's Missing, Dying, Dead, and Those Left Behind<br stlye="line-height: 5px; align: center"><br>- Soch Writing<a/></button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/art3.jpg" style="position: relative; width: 100%;">
+            <div class="headline">
+              <div class="caption" style="bottom: 2px;"><button id="btn" class="btn"><a class="a" href="https://www.sochwriting.com/unexplained-abductions-in-karachi/" target="_blank">Unexplained Abductions in Karachi<br stlye="line-height: 5px; align: center"><br>- Soch Writing<a/></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="column">
+          <div class="rectDiv">
+            <img src="./images/publicationsImages/art4.jpg" style="position: relative; width: 100%;">
+            <div class="headline">
+              <div class="caption" style="bottom: 20px;"><button id="btn" class="btn"><a class="a" href="https://images.dawn.com/news/1181715/was-the-first-architecture-design-art-awards-truly-a-celebration-of-the-pakistani-creative-mind" target="_blank">Was the first Architecture Design Art Awards truly a celebration of the Pakistani creative mind?<br stlye="line-height: 5px; align: center"><br>- Dawn Images<a/></button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   </body>
 </html>
